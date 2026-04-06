@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sec:allow-scripts": "npx @lavamoat/allow-scripts auto"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
