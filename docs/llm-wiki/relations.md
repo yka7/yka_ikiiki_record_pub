@@ -3,8 +3,6 @@ Repository: yka_ikiiki_record_pub
 
 ## 階層関係（エスカレーション経路）
 
-- 親: business_notes（推定・jinno確定待ち）
-- 根拠: YKA 系の教育サービス「イキイキレコード」の公開サイトであり、特定事業の商品・サービスの対外面を担う。姉妹リポ yka_ikiiki_record_（アプリ本体）と同一事業に属する。
-- 出典: app/layout.tsx（サービス名・説明の metadata）、app/ ディレクトリ構成、原則 llm-wiki-discipline の drafts-are-status-marked（状態表示付き草案）。
-
-- Observation: 上記の親は推定草案であり、jinno確定後に contracts registry の spec.parent へ反映される。provider/consumer の検証済み関係はまだない。
+- 親: business_notes（jinno確定 2026-09-26）
+- 根拠: 「イキイキレコード（学びの天気図）」の公開 Web サイト（Next.js）（YKA 系サービスの対外公開サイト）
+- 出典: contracts registry `registry/organization/repositories/yka_ikiiki_record_pub.yaml` の spec.parent（contracts commit ecbc226）。2026-09-26 の一括レビュー表（/home/jinno/output/repo-parent-review-2026-09-26.md）を jinno が現状案で承認。
